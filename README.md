@@ -4,22 +4,24 @@ Cammy Take-Home Coding Exercise
 
 This project can be loaded using intellij 15 and scala sdk 2.11.7
 
-This is the sample outpu:
 
--Hello, please Enter a name for your pet
--Rex
--Hello friend my name is Rex
--Actions: Feed, Play, Sleep, Quit:
--Feed
--Actions: Feed, Play, Sleep, Quit:
--Play
--Actions: Feed, Play, Sleep, Quit:
--Sleep
--Actions: Feed, Play, Sleep, Quit:
--Quit
--Actions: Feed, Play, PutToSleep, Quit:
+And demonstrated using the console:
+```
+Hello, please Enter a name for your pet
+Rex
+Hello friend my name is Rex
+Actions: Feed, Play, Sleep, Quit:
+Feed
+Actions: Feed, Play, Sleep, Quit:
+Play
+Actions: Feed, Play, Sleep, Quit:
+Sleep
+Actions: Feed, Play, Sleep, Quit:
+Quit
+Actions: Feed, Play, PutToSleep, Quit:
+```
 
-The rules are as follow
+The rules are as follows:
 
 * A pet has five attributes: name, age, hunger, poop, and happiness.
 * A pet dies is its age or its hunger reaches 100.
@@ -28,6 +30,6 @@ The rules are as follow
     Playing with a pet increases the pet's happiness unless he is dirty. If a pet is unhappy below 20 it will refuse to eat.
     If a pet its put to sleep it takes lonnger for the pet to get hungry.
     Cleaning a pet allows the increase of happiness when the play action is triggered.
-*  Every "clock" tick the hunger and age of the pet increase
+* Every tick the hunger and age of the pet increase
     
 
