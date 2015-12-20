@@ -10,15 +10,22 @@ And demonstrated using the console:
 Hello, please Enter a name for your pet
 Rex
 Hello friend my name is Rex
-Actions: Feed, Play, Sleep, Quit:
+Actions: Feed, Play, Sleep, Clean, Quit:
 Feed
-Actions: Feed, Play, Sleep, Quit:
-Play
-Actions: Feed, Play, Sleep, Quit:
-Sleep
-Actions: Feed, Play, Sleep, Quit:
+(Pet(Rex,1,2,2,53),Alive(true,0))
+Actions: Feed, Play, Sleep, Clean, Quit:
+Clean
+(Pet(Rex,2,4,1,52),Alive(true,0))
+Actions: Feed, Play, Sleep, Clean, Quit:
+Clean
+(Pet(Rex,3,6,0,51),Alive(true,0))
+Actions: Feed, Play, Sleep, Clean, Quit:
+sleep
+(Pet(Rex,4,8,0,50),Alive(false,0))
+Actions: Feed, Play, Sleep, Clean, Quit:
 Quit
-Actions: Feed, Play, PutToSleep, Quit:
+Actions: Feed, Play, PutToSleep, Clean, Quit:
+(Pet(Rex,5,9,0,50),Alive(false,1))
 ```
 
 The rules are as follows:
