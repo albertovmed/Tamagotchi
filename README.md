@@ -22,10 +22,6 @@ Clean
 Actions: Feed, Play, Sleep, Clean, Quit:
 sleep
 (Pet(Rex,4,8,0,50),Alive(false,0))
-Actions: Feed, Play, Sleep, Clean, Quit:
-Quit
-Actions: Feed, Play, PutToSleep, Clean, Quit:
-(Pet(Rex,5,9,0,50),Alive(false,1))
 ```
 
 The rules are as follows:
